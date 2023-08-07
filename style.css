@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100px;
+}
+html {
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: black;
+    text-align: left;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px;
+    top: 0;
+    left: 0;
+    padding: 20%;
+    position: relative;
+}
+nav{
+    background-color: rgba(43, 72, 134, 0.89);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index:1000;
+}
+nav a{
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    top: 0;
+    position: relative;
+    left: 82%;
+}
+nav a:hover{
+    color: black;
+}
+.logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    z-index: 10;
+    padding: 20px;
+
+}
+header{
+    display: inline;
+}
+.opening{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(2.jpg);
+    background-size: cover;
+}
+.opening .content{
+    text-align: center;
+    max-width: 700px;
+}
+.opening .content h1{
+   color: white;
+   font-size: xxx-large;
+   text-decoration: none;
+}
+.opening .content p{
+    color: rgb(225, 233, 235);
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: center;
+}
+.tombol{
+    color: white;
+    font-weight: 400;
+    font-size: small;
+    text-decoration: none;
+    display: inline-block;
+    background: rgba(3, 63, 194, 0.884);
+    margin: 20px;
+    padding: 15px 30px;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+}
+/*
+.tombol :hover{
+    letter-spacing: 5px;
+}
+*/
+.about{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.about .bout{
+    position: relative;
+    width: 45%;
+}
+.about .bout .gambar {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+.about .bout .gambar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.history{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.title {
+    position: relative;
+    padding-left: 50px;
+}
+.history .sejarah {
+    display: flex;
+    width: 100%;
+    padding: 2px;
+    margin: 0 auto;
+    padding-right: 100px;
+}
+.history .sejarah .gambar1 {
+    position: relative;
+    width: 100%;
+    min-height: 400px;  
+}
+.history .sejarah .gambar1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 40px;
+    border-radius: 25px;
+}
+.container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.container h3{
+    position: relative;
+    padding: 10px;
+
+}
+.box {
+    flex-grow: 1;
+    margin: 5px;
+    border-radius: 10px;
+}
+.author{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.author .thor{
+    position: relative;
+    width: 45%;
+}
+.author .thor .gambar {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+.author .thor .gambar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+footer {
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+   text-align: center;
+    background-color: rgba(43, 72, 134, 0.89);
+}
+#food .container{
+    text-align: center;
+}
+#food img{
+    height:300px;
+}
